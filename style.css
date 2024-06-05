@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    color:#486280;
+    background-color:rgb(173, 183, 204);
+    text-align: center;
+}
+
+.builder:hover {
+    margin: 100px;
+    transform:scale(3) ;
+    transition:6s linear ;
+}
+main img{
+    opacity:0.5;
+}
+main img:hover{
+    opacity:1;
+    border:12px dashed #486280;
+}
